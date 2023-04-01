@@ -6,6 +6,7 @@
 
 class Point:  # pylint: disable=R0903
     """Example to be used as return type of locate"""
+
     def __init__(self, lat, long):
         self.lat = lat
         self.long = long
