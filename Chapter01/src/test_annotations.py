@@ -1,4 +1,4 @@
-"""Clean Code in Python - Chapter 01: Introcution, Tools, and Formatting
+"""Clean Code in Python - Chapter 01: Introduction, Tools, and Formatting
 
 Tests for annotations examples
 
@@ -16,5 +16,5 @@ from src.annotations import NewPoint, Point, locate
     ),
 )
 def test_annotations(element, expected):
-    """test the class/functions againts its expected annotations"""
+    """test the class/functions against its expected annotations"""
     assert getattr(element, "__annotations__") == expected
